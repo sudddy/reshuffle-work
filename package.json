@@ -1,0 +1,19 @@
+{
+  "name": "reshuffle-work",
+  "version": "1.0.0",
+  "description": "Working with reshuffle",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudddy/reshuffle-work.git"
+  },
+  "author": "sudharsan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudddy/reshuffle-work/issues"
+  },
+  "homepage": "https://github.com/sudddy/reshuffle-work#readme"
+}
