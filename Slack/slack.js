@@ -16,8 +16,8 @@ const main = async () => {
   });
 
   const twilioConnector = new TwilioConnector(app, {
-    accountSid: "ACdd6bc413b4378f07b5e982a0f7b377a6",
-    authToken: "88f3fed9f69ddd9c8e44e9607867aa26",
+    accountSid: "ACd8a6c1c5b93bbebcd114ae88e2b9088b",
+    authToken: "c1ccec5223689763fa18f5381eb462e6",
     twilioNumber: "+12566496570"
   });
 

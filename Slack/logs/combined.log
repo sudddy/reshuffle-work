@@ -13,3 +13,9 @@
 {"message":"Registering event Slack/event/xsrQHY62khbYJG2ZAEDE0","level":"info","timestamp":"2020-11-10T11:03:10.383Z"}
 {"message":"Slack Connector - Slack app running on port 3000","level":"info","timestamp":"2020-11-10T11:03:10.435Z"}
 {"message":"Twilio connector SMS sent [id: SM258256bb1d674a1b9bf92f1e8892b6e7, to: +642108273786]","level":"info","timestamp":"2020-11-10T11:03:16.455Z"}
+{"message":"Initializing Reshuffle","level":"info","timestamp":"2020-11-10T11:08:41.689Z"}
+{"message":"Registering event Slack/event/XPRPfoZBgpjK7QA60iedS","level":"info","timestamp":"2020-11-10T11:08:43.158Z"}
+{"message":"Slack Connector - Slack app running on port 3000","level":"info","timestamp":"2020-11-10T11:08:43.203Z"}
+{"message":"Initializing Reshuffle","level":"info","timestamp":"2020-11-10T11:13:13.830Z"}
+{"message":"Registering event Slack/event/g-rbHKGe_lYTG2UvzedBU","level":"info","timestamp":"2020-11-10T11:13:15.208Z"}
+{"message":"Slack Connector - Slack app running on port 3000","level":"info","timestamp":"2020-11-10T11:13:15.251Z"}

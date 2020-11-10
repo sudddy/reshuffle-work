@@ -21,6 +21,7 @@
   "dependencies": {
     "reshuffle": "^1.0.2",
     "reshuffle-slack-connector": "0.0.1",
-    "reshuffle-twilio-connector": "0.0.9"
+    "reshuffle-twilio-connector": "0.0.9",
+    "reshuffle-twitter-connector": "0.0.1"
   }
 }
