@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Working with reshuffle",
   "main": "index.js",
+  "type": "module",
+  "module": "ESNEXT",
   "scripts": {
     "test": "npm test "
   },
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/sudddy/reshuffle-work/issues"
   },
-  "homepage": "https://github.com/sudddy/reshuffle-work#readme"
+  "homepage": "https://github.com/sudddy/reshuffle-work#readme",
+  "dependencies": {
+    "reshuffle": "^1.0.2",
+    "reshuffle-slack-connector": "0.0.1",
+    "reshuffle-twilio-connector": "0.0.9"
+  }
 }

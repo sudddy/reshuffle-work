@@ -1,0 +1,15 @@
+{"message":"Initializing Reshuffle","level":"info","timestamp":"2020-11-10T10:49:53.487Z"}
+{"message":"Initializing Reshuffle","level":"info","timestamp":"2020-11-10T10:50:15.014Z"}
+{"message":"Registering event Slack/event/unCf3DInELRNB-X4MJaYO","level":"info","timestamp":"2020-11-10T10:50:15.031Z"}
+{"message":"Slack Connector - Slack app running on port 3000","level":"info","timestamp":"2020-11-10T10:50:15.106Z"}
+{"message":"Initializing Reshuffle","level":"info","timestamp":"2020-11-10T10:56:10.563Z"}
+{"message":"Registering event Slack/event/B6MKAo1tCzo3U8JKUEouT","level":"info","timestamp":"2020-11-10T10:56:10.577Z"}
+{"message":"Slack Connector - Slack app running on port 3000","level":"info","timestamp":"2020-11-10T10:56:10.625Z"}
+{"message":"Initializing Reshuffle","level":"info","timestamp":"2020-11-10T11:02:24.086Z"}
+{"message":"Registering event Slack/event/fO4-IhX5p8114Du51HhmW","level":"info","timestamp":"2020-11-10T11:02:25.704Z"}
+{"message":"Slack Connector - Slack app running on port 3000","level":"info","timestamp":"2020-11-10T11:02:25.746Z"}
+{"message":"ReferenceError: myTwilioConnector is not defined\n    at Object.handle (file:///Users/sudharsans/Documents/GitHub/reshuffle-work/Slack/slack.js:33:7)\n    at Reshuffle.<anonymous> (/Users/sudharsans/Documents/GitHub/reshuffle-work/node_modules/reshuffle/dist/Reshuffle.js:219:54)\n    at step (/Users/sudharsans/Documents/GitHub/reshuffle-work/node_modules/reshuffle/dist/Reshuffle.js:52:23)\n    at Object.next (/Users/sudharsans/Documents/GitHub/reshuffle-work/node_modules/reshuffle/dist/Reshuffle.js:33:53)\n    at /Users/sudharsans/Documents/GitHub/reshuffle-work/node_modules/reshuffle/dist/Reshuffle.js:27:71\n    at new Promise (<anonymous>)\n    at __awaiter (/Users/sudharsans/Documents/GitHub/reshuffle-work/node_modules/reshuffle/dist/Reshuffle.js:23:12)\n    at Reshuffle.onHandleEvent (/Users/sudharsans/Documents/GitHub/reshuffle-work/node_modules/reshuffle/dist/Reshuffle.js:210:16)\n    at Reshuffle.<anonymous> (/Users/sudharsans/Documents/GitHub/reshuffle-work/node_modules/reshuffle/dist/Reshuffle.js:194:51)\n    at step (/Users/sudharsans/Documents/GitHub/reshuffle-work/node_modules/reshuffle/dist/Reshuffle.js:52:23)","level":"error","handlerId":"OgFx_t91nJaylT9ihlCAQ","timestamp":"2020-11-10T11:02:36.175Z"}
+{"message":"Initializing Reshuffle","level":"info","timestamp":"2020-11-10T11:03:08.869Z"}
+{"message":"Registering event Slack/event/xsrQHY62khbYJG2ZAEDE0","level":"info","timestamp":"2020-11-10T11:03:10.383Z"}
+{"message":"Slack Connector - Slack app running on port 3000","level":"info","timestamp":"2020-11-10T11:03:10.435Z"}
+{"message":"Twilio connector SMS sent [id: SM258256bb1d674a1b9bf92f1e8892b6e7, to: +642108273786]","level":"info","timestamp":"2020-11-10T11:03:16.455Z"}
