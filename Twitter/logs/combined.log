@@ -36,3 +36,7 @@
 {"message":"Web server listening on port 8000","level":"info","timestamp":"2020-11-10T12:18:02.427Z"}
 {"message":"Handling event","level":"info","timestamp":"2020-11-10T12:18:36.879Z"}
 {"message":"Registering event follow:sudd","level":"info","handlerId":"Eu8LP9xCc7FXRVL8nBoFh","timestamp":"2020-11-10T12:18:36.880Z"}
+{"message":"Initializing Reshuffle","level":"info","timestamp":"2020-11-11T08:23:25.886Z"}
+{"message":"Registering event HTTP/GET/follow/:id/fIQHG5zPCcdr9IZgsuzd-","level":"info","timestamp":"2020-11-11T08:23:25.894Z"}
+{"message":"Registering event HTTP/GET/search/:text/fIQHG5zPCcdr9IZgsuzd-","level":"info","timestamp":"2020-11-11T08:23:25.894Z"}
+{"message":"Web server listening on port 8000","level":"info","timestamp":"2020-11-11T08:23:25.912Z"}

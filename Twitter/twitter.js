@@ -1,11 +1,15 @@
 import { TwitterConnector } from "reshuffle-twitter-connector";
 import { HttpConnector, Reshuffle } from "reshuffle";
+import {
+  TWITTER_CUSTOMER_KEY,
+  TWITTER_CUSTOMER_SECRET
+} from "../configuration/config.js";
 
 const app = new Reshuffle();
 
 const twitter = new TwitterConnector(app, {
-  customerKey: "pUAYC19actFe7SmplLuNZGO0t",
-  customerSecret: "gFlcgHaPOcYhHYfUmmp9ZcifgX9A7eYdckZ3mq33d6Q7aldqyT"
+  customerKey: TWITTER_CUSTOMER_KEY,
+  customerSecret: TWITTER_CUSTOMER_SECRET
 });
 
 const connector = new HttpConnector(app);

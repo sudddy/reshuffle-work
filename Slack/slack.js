@@ -9,10 +9,10 @@ const app = new Reshuffle();
 
 const main = async () => {
   const slackConnector = new SlackConnector(app, {
-    token: "xoxb-1484570284771-1497110236385-Rl4ZDszC0nvQLeHYaeb7ttF1",
-    signingSecret: "a78bc69862c318274879a0d3b2a08247",
-    port: "3000",
-    endpoints: "/"
+    token: SLACK_TOKEN,
+    signingSecret: SLACK_SIGNING_SECRET,
+    port: SLACK_PORT,
+    endpoints: SLACK_ENDPOINTS
   });
 
   const twilioConnector = new TwilioConnector(app, {
