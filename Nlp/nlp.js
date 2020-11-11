@@ -8,7 +8,6 @@ const pool = new Pool();
 
 const nlpConnector = new NlpConnector(app);
 const connector = new HttpConnector(app);
-
 const persistentStore = new SQLStoreAdapter(pool, "languages");
 app.setPersistentStore(persistentStore);
 
