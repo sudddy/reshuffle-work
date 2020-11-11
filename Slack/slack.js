@@ -5,6 +5,15 @@ import {
   SlackEvents
 } from "reshuffle-slack-connector";
 import { TwilioConnector } from "reshuffle-twilio-connector";
+import {
+  SLACK_TOKEN,
+  SLACK_SIGNING_SECRET,
+  SLACK_PORT,
+  SLACK_ENDPOINTS,
+  TWILIO_ACCOUNTSID,
+  TWILIO_AUTH_TOKEN,
+  TWILIO_NUMBER
+} from "../configuration/config.js";
 const app = new Reshuffle();
 
 const main = async () => {
@@ -16,9 +25,9 @@ const main = async () => {
   });
 
   const twilioConnector = new TwilioConnector(app, {
-    accountSid: "ACd8a6c1c5b93bbebcd114ae88e2b9088b",
-    authToken: "c1ccec5223689763fa18f5381eb462e6",
-    twilioNumber: "+12566496570"
+    accountSid: TWILIO_ACCOUNTSID,
+    authToken: TWILIO_AUTH_TOKEN,
+    twilioNumber: TWILIO_NUMBER
   });
 
   slackConnector.on(
