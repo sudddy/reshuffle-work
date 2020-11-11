@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/sudddy/reshuffle-work#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
     "reshuffle": "^1.0.2",
+    "reshuffle-google-connectors": "0.0.6",
     "reshuffle-slack-connector": "0.0.1",
     "reshuffle-twilio-connector": "0.0.9",
     "reshuffle-twitter-connector": "0.0.1"
